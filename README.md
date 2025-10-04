@@ -19,26 +19,26 @@ GET /records/{id}         -> get record complete details its history or events
 
 1. **Clone Repo**
 ```bash
-git clone https://github.com/yourusername/carbon-credits-api.git
+git clone https://github.com/vishal160204/Backend-Exercise
 cd carbon-credits-api
 
-Create Virtual Environment
+## Create Virtual Environment
 
 python -m venv .venv
 source .venv/bin/activate  # macOS/Linux
 .venv\Scripts\activate     # Windows
 
-Install dependency
+## Install dependency
 
 pip install -r requirements.txt
 
-set database url in alembic.ini and database/session.py/  
+## set database url in alembic.ini and database/sessions.py/  
 
 run migration
 
 alembic upgrade head
 
-start server
+## start server
 
 fastapi dev main.py
 
